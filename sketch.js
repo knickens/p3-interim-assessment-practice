@@ -31,7 +31,7 @@ function paint(){
     kiBlue = random(0,255);
     kiGreen = random(0,255);
     kiBlue = random(0,255);
-    stroke(0,90);
+    stroke(255,90);
     strokeWeight(4);
     fill(kiBlue,kiGreen,kiRed,100);
     ellipse(mouseX,mouseY,50,50);
@@ -40,7 +40,7 @@ function paint(){
 function rowOfSqaures(){
  for(var x = 50; x <= 600; x = x + 100){
          stroke(kiBlue,kiGreen,kiRed,90);
-         fill(0,90);
+         fill(255,90);
         ellipse(x,100,50,50);    
      }
     
